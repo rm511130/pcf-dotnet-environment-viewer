@@ -3,7 +3,9 @@
 ## Instructions
 Push the app using manifest defaults, cd into the environment folder that holds the app code:
 ```
-cd ViewEnvironment
+git clone https://github.com/rm511130/pcf-dotnet-environment-viewer
+
+cd ./pcf-dotnet-environment-viewer/ViewEnvironment
 
 cf push
 ```
